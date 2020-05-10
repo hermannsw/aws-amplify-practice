@@ -62,7 +62,7 @@ export default function PostsBySpecifiedUser() {
       }
     });
     return () => subscription.unsubscribe();
-  }, []);
+  });
 
 
   return (
